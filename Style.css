@@ -1,0 +1,93 @@
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+  color: #2d2d2d;
+  background-color: #f4f6f8;
+}
+
+/* Header */
+header {
+  background-color: #1a1a2e;
+  color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #c9c9e8;
+}
+
+/* Sections as cards */
+section {
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+  color: #1a1a2e;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #4a4ae8;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+section p {
+  margin-bottom: 10px;
+}
+
+section ul {
+  list-style-position: inside;
+  padding-left: 10px;
+}
+
+section ul li {
+  margin-bottom: 8px;
+}
+
+/* Contact links */
+#contact a {
+  color: #4a4ae8;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #777777;
+  font-size: 0.9rem;
+}
+
+/* Responsive: smaller screens (phones) */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.7rem;
+  }
+
+  section {
+    margin: 15px 10px;
+    padding: 20px;
+  }
+}
